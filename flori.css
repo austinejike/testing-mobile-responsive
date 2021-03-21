@@ -270,6 +270,10 @@ footer.footsy ul li{
         color: blue;
         border-top: 1px solid red;
     }
+    .rol-class{
+        margin: 0;
+        padding: 0;
+    }
     .col-7,
     .col-6,
     .col-5, 
@@ -287,14 +291,19 @@ footer.footsy ul li{
         margin: 10px;
     }
     .slopIcon img{
-        width: 100%;
+        width: 300px;
+        margin-left: 12px!important;
     }
     article p {
         font-size: 20px;
+        width: 350px;
+        padding: 10px;
+        margin-left: 10px;
     }
     div.box{
         padding: 5px;
         display: block;
+        width: 300px;
     }
 
     div.leftside-col,
@@ -313,5 +322,26 @@ footer.footsy ul li{
         width: 100%;
         margin: 0;
         overflow: hidden;
+    }
+    .footsy{
+        margin: 0 !important;
+        padding: 15px !important;
+    }
+    .fftc{
+        /*display: block;
+        width: 400px !important;
+        margin-left: -10px !important;
+        padding: 0px !important;*/
+    }
+    .mobilestack{
+        /*margin-right: 5px !important;*/
+    }
+    .mobilestack ul li{
+        margin: 0 10px 0 10px;
+        font-size: 15px;
+    }
+    .mobilestack h3{
+        padding: 0 10px 0 10px;
+        font-size: 15px;
     }
 }
